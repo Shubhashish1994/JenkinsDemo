@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.test.HomePageTest">
+        <methods>
+          <include name="clickonregister"/>
+          <include name="verifytitle"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.test.HomePageTest -->
+      <class name="com.test.RegisterPageTest">
+        <methods>
+          <include name="register"/>
+          <include name="verifytitle"/>
+        </methods>
+      </class> <!-- com.test.RegisterPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
